@@ -1,4 +1,4 @@
-I created this as a practise list of becoming a software enginieer. 
+I created this as a practise folder and my list of solving different problems to help me becoming a software enginieer. 
 
 <ol>My plan:
   <li> Daily exersises </li>
