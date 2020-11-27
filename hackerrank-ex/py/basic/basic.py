@@ -31,3 +31,32 @@ if __name__ == '__main__':
     print(a/b)
     print(a//b)
 
+
+ 	n = int(input())
+    
+    i=0
+    while i < n:
+        print(i*i)
+        i+=1
+
+
+    #leap year
+def is_leap(year):
+    # leap = False
+    
+    # Write your logic here
+    # if year % 4 == 0:
+    # 	if year % 100:
+    # 		if year % 400:
+				# leap = True
+    # 	elif
+    # 	leap = False
+    # else 
+    # 	leap = False
+
+    return year % 4 == 0 and (year % 400 == 0 or year % 100 !=0)
+    
+    # return leap
+
+year = int(input())
+print(is_leap(year))
