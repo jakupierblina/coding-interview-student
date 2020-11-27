@@ -31,13 +31,8 @@ if __name__ == '__main__':
     print(a/b)
     print(a//b)
 
-
- 	n = int(input())
     
-    i=0
-    while i < n:
-        print(i*i)
-        i+=1
+
 
 
     #leap year
@@ -60,3 +55,23 @@ def is_leap(year):
 
 year = int(input())
 print(is_leap(year))
+
+
+def printmult(n):
+	  i=0
+    while i < n:
+        print(i*i)
+        i+=1
+
+
+
+def print(n):
+    i=1
+    while i<=n:
+        sys.stdout.write(str(i))
+        i+=1
+
+def palidhje(a,b):
+	print(a+b)
+	print(a-b)
+	print(a*b)
